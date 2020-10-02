@@ -1,0 +1,26 @@
+{
+    "name": "flavio/teste",
+    "description": "Projeto de Teste",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "flaviotcl",
+            "email": "tavares.pmsg@gmail.com"
+        }
+    ],
+
+    "autoload":
+        {
+            "psr-4": {
+                        "Flavio\\CursoSon\\" : "src"                        
+                     } 
+        },
+       
+    "require": {
+        "monolog/monolog": "^2.1"
+    }
+}
